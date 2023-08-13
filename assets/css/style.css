@@ -39,6 +39,12 @@ h1 {
     color #D4AF37;
 }
 
+#menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+    list-style-type: disc;
+}
+
 
 main {
 background-color: lightcoral;
