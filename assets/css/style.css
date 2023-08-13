@@ -42,7 +42,17 @@ h1 {
 #menu {
     font-size: 100%;
     letter-spacing: 2px;
-    list-style-type: disc;
+    list-style-type: none;
+}
+
+#menu > li {
+
+margin-bottom: 0.5em;
+
+}
+
+.active {
+    border-bottom: 2px solid black;
 }
 
 
