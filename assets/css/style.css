@@ -18,7 +18,13 @@ body {
 }
 
 header {
-background-color: lightblue;
+background-color: white;
+padding: 0 1rem;
+position: fixed;
+width: 100%;
+box-shadow: 0 2px 2px black;
+
+
 }
 
 h1 {
