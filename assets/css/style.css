@@ -18,7 +18,7 @@ body {
 }
 
 header {
-background-color: white;
+background-color: darkgreen;
 padding: 0 1rem;
 position: fixed;
 width: 100%;
@@ -27,8 +27,16 @@ box-shadow: 0 2px 2px black;
 
 }
 
+header a {
+    text-decoration: none;
+    color: #D4AF37;
+}
+
 h1 {
     font-family: 'EB garamond', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px
+    color #D4AF37;
 }
 
 
