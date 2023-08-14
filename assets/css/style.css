@@ -90,8 +90,20 @@ main {
     margin-top: 44px;
 }
 
-footer {
-    background-color: lightgreen;
+/*  Footer  */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+
+            font-size: 180%;
+            padding: 10;
+            color: black;
 }
 
 /*  Media query tablets and larger (768px an upwards*/
