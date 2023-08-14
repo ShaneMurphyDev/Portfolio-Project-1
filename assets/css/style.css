@@ -18,25 +18,25 @@ body {
 }
 
 header {
-background-color: darkgreen;
-padding: 0 1rem;
-position: fixed;
-width: 100%;
-box-shadow: 0 2px 2px black;
+    background-color: white;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 2px black;
+    z-index: 99;
 
 
 }
 
 header a {
     text-decoration: none;
-    color: #D4AF37;
+    color: inherit;
 }
 
 h1 {
     font-family: 'EB garamond', sans-serif;
     text-transform: capitalize;
-    letter-spacing: 2px
-    color #D4AF37;
+    letter-spacing: 2px color black;
 }
 
 #menu {
@@ -45,22 +45,33 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
 
-margin-bottom: 0.5em;
+    margin-bottom: 1em;
 
 }
 
 .active {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
 }
 
+/*  Navbar Styles  */
+
+nav {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 2px color black;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+}
 
 main {
-background-color: lightcoral;
-flex: 1 0 auto;
+    background-color: lightblue;
+    flex: 1 0 auto;
 }
 
 footer {
-background-color: lightgreen;
+    background-color: lightgreen;
 }
