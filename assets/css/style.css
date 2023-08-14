@@ -67,6 +67,7 @@ nav {
     padding: 0 1rem;
     left: 0;
     display: none;
+    top: 100%;
 }
 
 /*  Nav Toggle  */
@@ -80,12 +81,13 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 main {
     background-color: lightblue;
     flex: 1 0 auto;
+    margin-top: 44px;
 }
 
 footer {
