@@ -104,7 +104,14 @@ main {
 }
 
 #why {
-        
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#why h3 {
+    text-align: center;
 }
 /*  Hero Section*/
 #hero {
