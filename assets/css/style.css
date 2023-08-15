@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lato:wght@300&display=swap');
 
 /* Asterisk wildcard selector  */
 * {
@@ -15,7 +15,8 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: black;
-    font-family: 'open-sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
 }
 
 h1, h2, h3 {
@@ -88,8 +89,23 @@ main {
 
     flex: 1 0 auto;
     margin-top: 43px;
+    align-items: center;
 }
 
+#mission {
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mission h2 {
+    text-align: center;
+}
+
+#why {
+        
+}
 /*  Hero Section*/
 #hero {
     height: 700px;
