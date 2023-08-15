@@ -85,9 +85,16 @@ nav {
 /* Main content */
 
 main {
-    background-color: lightcoral;
+
     flex: 1 0 auto;
     margin-top: 43px;
+}
+
+/*  Hero Section*/
+#hero {
+    height: 900px;
+    width: 100%;
+    background: url("../images/streetcat2.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
