@@ -163,6 +163,11 @@ main {
         margin-top: 77px;
     }
 
+    #cat-list > li{
+        list-style: circle;
+        text-transform: bold;
+    }
+
 
     /*  Hero  */
     #cover-text {
