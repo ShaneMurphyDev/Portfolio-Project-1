@@ -93,10 +93,11 @@ main {
 }
 
 #mission {
-    padding-top: 10px;
+    padding-top: 20px;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 #mission h2 {
@@ -109,7 +110,7 @@ main {
 }
 
 #why {
-    padding-top: 10px;
+    padding-top: 20px;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
