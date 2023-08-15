@@ -108,6 +108,7 @@ main {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 #why h3 {
@@ -115,7 +116,7 @@ main {
 }
 /*  Hero Section*/
 #hero {
-    height: 700px;
+    height: 550px;
     width: 100%;
     background: url("../images/streetcat2.jpg") no-repeat center center/cover;
     position: relative;
