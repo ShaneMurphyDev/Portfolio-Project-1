@@ -98,6 +98,7 @@ main {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    font-size: medium;
 }
 
 #mission h2 {
@@ -115,9 +116,23 @@ main {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    font-size: medium;
 }
 
 #why h3 {
+    text-align: center;
+}
+
+#adoption-process {
+        padding-top: 20px;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        font-size: medium;
+}
+
+#adoption-process p {
     text-align: center;
 }
 /*  Hero Section*/
