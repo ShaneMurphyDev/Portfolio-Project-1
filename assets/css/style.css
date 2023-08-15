@@ -18,6 +18,13 @@ body {
     font-family: 'open-sans', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'EB garamond', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -34,13 +41,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'EB garamond', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: black;
 }
 
 #menu {
@@ -95,8 +95,18 @@ main {
     height: 900px;
     width: 100%;
     background: url("../images/streetcat2.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
+#cover-text {
+    background-color: rgba(255, 255, 255, .7);
+    position: absolute;
+    bottom: 30px;
+    width: 85%;
+    min-height: 125px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
 /* Footer */
 
 #social-networks {
