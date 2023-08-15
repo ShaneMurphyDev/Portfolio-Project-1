@@ -103,6 +103,11 @@ main {
     text-align: center;
 }
 
+#present {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 #why {
     padding-top: 10px;
     align-items: center;
