@@ -113,6 +113,7 @@ main {
 #crew {
     text-align: center;
     align-items: center;
+    padding-top: 10px;
 }
 
 #present {
@@ -297,6 +298,10 @@ main {
         text-transform: bold;
     }
 
+        #adoption-process {
+            text-align: center;
+        }
+
 
     /*  Hero  */
     #cover-text {
@@ -327,6 +332,14 @@ main {
         font-size: 250%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    #crew {
+        padding-top: 20px;
+    }
+
+    #adoption-process {
+        text-align: center;
     }
 
     nav {
