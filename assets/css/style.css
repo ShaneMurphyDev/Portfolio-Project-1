@@ -162,6 +162,13 @@ main {
     padding-bottom: 20px;
 }
 
+/*  Adoption Page  */
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
 /* Footer */
 
 #social-networks {
@@ -176,6 +183,14 @@ main {
     font-size: 160%;
     padding: 5%;
     color: black;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
