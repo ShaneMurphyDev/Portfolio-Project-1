@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     /* Generic project styles */
     color: black;
     font-family: 'Lato', sans-serif;
@@ -70,6 +71,7 @@ nav {
     box-shadow: 0 2px 2px black;
     display: none;
     top: 100%;
+    font-weight: 600;
 }
 
 /* Nav toggle */
@@ -104,6 +106,11 @@ main {
 }
 
 #mission h2 {
+    text-align: center;
+    align-items: center;
+}
+
+#crew {
     text-align: center;
     align-items: center;
 }
