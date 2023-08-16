@@ -19,7 +19,9 @@ body {
     font-size: large;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'EB garamond', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -108,41 +110,42 @@ main {
 
 #present {
 
-        padding-top: 20px;
-        align-items: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        font-size: large;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: large;
 }
 
 #why {
-        padding-top: 10px;
-        align-items: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        font-size: large;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: large;
 }
 
 #why h3 {
     text-align: center;
-    font-size:x-large;
+    font-size: x-large;
 }
 
 #adoption-process {
-        padding-top: 25px;
-        align-items: center;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        font-size: medium;
+    padding-top: 25px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
 }
 
 #adoption-process p {
     text-align: center;
     font-size: large;
 }
+
 /*  Hero Section*/
 #hero {
     height: 550px;
@@ -173,12 +176,54 @@ main {
     text-align: center;
 }
 
+/* Form */
+
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#news-letter {
+    background-image: url("../images/catbg.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
 #news-letter-form {
-            flex: 1 0 auto;
-            margin-top: 47px;
-            display: flex;
-            flex-direction: column;
-        }
+    color: #ffffff;
+    background-color: rgba(20, 20, 20, 0.5);
+    padding: 30px;
+}
+
+#news-letter-form>h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #090909;
+    color: #fafafa;
+}
 
 /* Footer */
 
@@ -214,6 +259,7 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        font-size: larger;
     }
 
     #menu {
@@ -229,7 +275,7 @@ main {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 210%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -239,7 +285,7 @@ main {
         margin-top: 77px;
     }
 
-    #cat-list > li{
+    #cat-list>li {
         list-style: circle;
         text-transform: bold;
     }
@@ -255,6 +301,12 @@ main {
     #photos {
         column-count: 2;
     }
+
+    #news-letter {
+        background-position: center;
+        position: relative;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
