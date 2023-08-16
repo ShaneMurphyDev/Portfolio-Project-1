@@ -173,6 +173,13 @@ main {
     text-align: center;
 }
 
+#news-letter-form {
+            flex: 1 0 auto;
+            margin-top: 47px;
+            display: flex;
+            flex-direction: column;
+        }
+
 /* Footer */
 
 #social-networks {
