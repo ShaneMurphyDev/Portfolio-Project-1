@@ -221,8 +221,8 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #090909;
-    color: #fafafa;
+    background-color: black;
+    color: white;
 }
 
 /* Footer */
@@ -315,4 +315,35 @@ main {
         border-bottom: 1px solid black;
 
     }
+
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        font-size: x-large;
+    }
+
+    #news-letter {
+        background-position: center;
+        position: relative;
+        flex: content;
+    }
+
+    .text-input:hover {
+        border-color: black;
+    }
+
+    .join-button:hover {
+        background-color: white;
+        color: black;
+    }
+
 }
