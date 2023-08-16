@@ -169,6 +169,10 @@ main {
     line-height: 1em;
 }
 
+.image1 {
+    text-align: center;
+}
+
 /* Footer */
 
 #social-networks {
@@ -239,6 +243,10 @@ main {
         width: 300px;
         left: 30px;
         bottom: 100px;
+    }
+
+    #photos {
+        column-count: 2;
     }
 }
 
