@@ -31,7 +31,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: lightsalmon;
+    background-color:lightskyblue;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -64,7 +64,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: lightsalmon;
+    background-color:lightskyblue;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -132,6 +132,10 @@ main {
 #why h3 {
     text-align: center;
     font-size: x-large;
+}
+
+#main-h2 {
+    margin-top: 20px;
 }
 
 #adoption-process {
@@ -204,6 +208,8 @@ main {
     align-items: center;
     text-align: center;
     font-size: medium;
+    text-transform: bold;
+    font-size: larger
 }
 
 /* Form */
@@ -344,7 +350,7 @@ main {
 }
 
 #footer {
-    background-color: lightsalmon;
+    background-color: lightskyblue;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
