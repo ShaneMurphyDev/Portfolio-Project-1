@@ -110,12 +110,6 @@ main {
     align-items: center;
 }
 
-#crew {
-    text-align: center;
-    align-items: center;
-    padding-top: 10px;
-}
-
 #present {
 
     padding-top: 20px;
@@ -194,7 +188,7 @@ main {
 .gallery-image {
     border-style: solid;
     border-width: 5px;
-     border-color: black;
+    border-color: black;
     padding: 10px;
     text-align: center;
 
@@ -203,7 +197,7 @@ main {
 .image-title {
     font-size: 25px;
     font-weight: bold;
-     text-align: center;
+    text-align: center;
 }
 
 #contact-details {
@@ -281,7 +275,7 @@ main {
 @media screen and (min-width: 576px) {
     .gallery {
         grid-template-columns: auto auto;
-            grid-template-rows: auto auto;
+        grid-template-rows: auto auto;
     }
 }
 
