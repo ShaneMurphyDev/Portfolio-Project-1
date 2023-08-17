@@ -31,7 +31,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: white;
+    background-color: lightsalmon;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -64,7 +64,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: white;
+    background-color: lightsalmon;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -341,6 +341,10 @@ main {
         position: relative;
     }
 
+}
+
+#footer {
+    background-color: lightsalmon;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
