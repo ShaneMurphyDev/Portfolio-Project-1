@@ -31,7 +31,7 @@ h3 {
 
 /* Header */
 header {
-    background-color:lightskyblue;
+    background-color:lightgray;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -64,7 +64,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color:lightskyblue;
+    background-color:lightgray;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -228,6 +228,7 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    width: 100%;
 }
 
 #news-letter-form {
@@ -259,6 +260,16 @@ main {
     font-size: 100%;
     background-color: black;
     color: white;
+    margin-bottom: 20px;
+}
+
+#thank-you {
+    background-image: url("../images/catbg.jpg");
+    background-size: cover;
+    background-position: 100%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    width: 100%;
 }
 
 /* Footer */
@@ -350,7 +361,7 @@ main {
 }
 
 #footer {
-    background-color: lightskyblue;
+    background-color: lightgray;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
