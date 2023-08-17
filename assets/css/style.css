@@ -175,13 +175,20 @@ main {
 
 /*  Adoption Page  */
 
-#photos img {
-    width: 100%;
-    line-height: 1em;
-}
-
-.image1 {
-    text-align: center;
+.gallery {
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    margin: 50px;
+    background: white;
+    overflow: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 50px;
+    justify-items: center;
+    align-items: center;
 }
 
 /* Form */
@@ -298,9 +305,9 @@ main {
         text-transform: bold;
     }
 
-        #adoption-process {
-            text-align: center;
-        }
+    #adoption-process {
+        text-align: center;
+    }
 
 
     /*  Hero  */
