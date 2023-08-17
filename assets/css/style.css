@@ -206,6 +206,12 @@ main {
      text-align: center;
 }
 
+#contact-details {
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+}
+
 /* Form */
 
 main {
