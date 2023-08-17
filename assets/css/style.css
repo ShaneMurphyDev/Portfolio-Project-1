@@ -179,16 +179,29 @@ main {
     border-style: solid;
     border-color: black;
     padding: 5px;
-    margin: 50px;
+    margin: 25px;
     background: white;
     overflow: auto;
     width: auto;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1;
     grid-template-rows: auto auto;
-    grid-gap: 50px;
+    grid-gap: 25px;
     justify-items: center;
     align-items: center;
+}
+
+.gallery-image {
+    border-style: solid;
+    border-width: 5px;
+     border-color: black;
+    padding: 10px;
+}
+
+.image-title {
+    font-size: 25px;
+    font-weight: bold;
+     text-align: center;
 }
 
 /* Form */
