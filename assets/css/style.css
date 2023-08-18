@@ -179,14 +179,11 @@ main {
     padding: 5px;
     margin: 25px;
     background: white;
-    overflow: auto;
-    width: auto;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 1;
-    grid-gap: 25px;
+    grid-gap: 20px;
     justify-items: center;
-    align-items: center;
 }
 
 .gallery-image {
@@ -195,6 +192,7 @@ main {
     border-color: black;
     padding: 10px;
     text-align: center;
+    overflow: auto;
 
 }
 
