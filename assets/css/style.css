@@ -31,7 +31,7 @@ h3 {
 
 /* Header */
 header {
-    background-color:lightcyan;
+    background-color:paleturquoise;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -64,8 +64,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color:lightcyan;
-    width: 100%;
+    background-color: paleturquoise;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px black;
@@ -193,6 +192,7 @@ main {
     padding: 10px;
     text-align: center;
     overflow: auto;
+    width: 100%;
 
 }
 
@@ -304,7 +304,7 @@ main {
 }
 
 #footer {
-    background-color:lightcyan;
+    background-color:paleturquoise;
 }
 
 /* Media query: large or landscape phones (576px and up) */
