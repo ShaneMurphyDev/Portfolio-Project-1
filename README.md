@@ -55,7 +55,11 @@ HTML:
 <img src="/images/valid.png" width="auto" height="auto"  alt="Validation">
 </p>
 
-CSS
+CSS:
+
+<p>
+<img src="/images/CSS valid.png" width="auto" height="auto"  alt="Validation">
+</p>
 
 Unfixed bugs - There is are bug where the text ajoining a gallery image doesnt stay together, i've tried recreating it to understand whats happening and i believe it's due to the seperation of divs
 
