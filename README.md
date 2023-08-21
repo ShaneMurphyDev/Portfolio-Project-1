@@ -2,7 +2,7 @@
 Kingdom Cats is a website for adopting and fostering cats and kittens that need a home. I choose this because it's something i'm passionate about. The goal to create an easy to use and easy to understand website for those interested in adoption. Kingdom Cats will be ideal for people living in Co Kerry and include a gallery with adoptees, information about them, abd all of our contact information incase they decide to adopt.
 
 <p>
-<img src="/images/Responsivenes.png" width="auto" height="auto"  alt="Screens preview">
+<img src="assets/images/Responsivenes.png" width="auto" height="auto"  alt="Screens preview">
 </p>
 
 <h2>Features</h2>
@@ -10,7 +10,7 @@ Navigation bar.
 Home page includes logo and a drop down toggle menu for ease of access to the other pages on the site. Home, Adopt, and a page to sign up tp out news letter
 
 <p>
-<img src="/images/Wireframe.png" width="auto" height="auto"  alt="Wireframe">
+<img src="assets/images/Wireframe.png" width="auto" height="auto"  alt="Wireframe">
 </p>
 
 The home page will include information on the motivation of the site and include some studies on the benefits of adoption
@@ -29,7 +29,7 @@ The footer will include links to the relevant social media, this will encourage 
 This section will include pictures of the cats we have available to adopt and a brief decription about them, such as age and personality.
 
 <p>
-<img src="/images/Adoptionpage.png" width="auto" height="auto"  alt="Adoption Page">
+<img src="assets/images/Adoptionpage.png" width="auto" height="auto"  alt="Adoption Page">
 </p>
 
 <h2> News Letter </h2>
@@ -37,7 +37,7 @@ This page will allow the viewer to sign up via email to our news letter so we ca
 A thank you page will be included to keep them onsite.
 
 <p>
-<img src="/images/newsletter.png" width="auto" height="auto"  alt="News Letter">
+<img src="assets/images/newsletter.png" width="auto" height="auto"  alt="News Letter">
 </p>
 
 <h2>Testing</2>
@@ -46,19 +46,19 @@ I have conducted thourough testing via the browser inspect and dev tools. This i
 Performances scores on light house: 
 
 <p>
-<img src="/images/Lighthouse score.png" width="auto" height="auto"  alt="News Letter">
+<img src="assets/images/Lighthouse score.png" width="auto" height="auto"  alt="News Letter">
 </p>
 
 Validator Testing
 HTML:
 <p>
-<img src="/images/valid.png" width="auto" height="auto"  alt="Validation">
+<img src="assets/images/valid.png" width="auto" height="auto"  alt="Validation">
 </p>
 
 CSS:
 
 <p>
-<img src="/images/CSS valid.png" width="auto" height="auto"  alt="Validation">
+<img src="assets/images/CSS valid.png" width="auto" height="auto"  alt="Validation">
 </p>
 
 Unfixed bugs - There is are bug where the text ajoining a gallery image doesnt stay together, i've tried recreating it to understand whats happening and i believe it's due to the seperation of divs
