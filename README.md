@@ -1,5 +1,5 @@
 <h1>Kingdom Cats</h1>
-Kingdom Cats is a website for adopting and fostering cats and kittens that need a home. I choose this because it's something i'm passionate about. The goal to create an easy to use and easy to understand website for those interested in adoption. Kingdom Cats will be ideal for people living in Co Kerry and include a gallery with adoptees, information about them, abd all of our contact information incase they decide to adopt.
+Kingdom Cats is a website for adopting and fostering cats and kittens that need a home. I choose this because it's something i'm passionate about. The goal is to create an easy to use and easy to understand website for those interested in adoption. Kingdom Cats will be ideal for people living in Co Kerry and include a gallery with adoptees, information about them, and all of our contact information in-case they decide to adopt.
 
 <p>
 <img src="assets/images/Responsivenes.png" width="auto" height="auto"  alt="Screens preview">
